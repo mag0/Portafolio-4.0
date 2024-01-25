@@ -52,7 +52,8 @@ body{
 }
 
 .abajo{
-    background-color: black;
+    background-color: #181818;
+    box-shadow: none;
     transition: .3s;
 }
 
@@ -219,7 +220,6 @@ section h2{
 
 .herramientas .herramienta{
     text-align: center;
-    cursor: pointer;
     transition: .3s;
     border-radius: 2em;
     padding: 1em;
@@ -383,10 +383,11 @@ section h2{
         
     }.header-responsive .responsive ul{
         list-style: none;
-        margin-bottom: 2em;
+        margin-bottom: 2em;width: 80%;
     }.header-responsive .responsive ul li{
         padding: 1.5em;
         border-bottom: .2em solid var(--color-principal);
+        width: 100%;
     }
     
     
@@ -418,5 +419,15 @@ section h2{
     }.contacto .redes .red img{
         height: 50px;
         width: 50px;
+    }
+}
+
+@media screen and (width<400px) {
+    section{
+        margin: 5rem 0;
+        font-size: .80em;
+    }.proyectos{
+        grid-template-columns: 90%;
+        gap: 2em;
     }
 }
