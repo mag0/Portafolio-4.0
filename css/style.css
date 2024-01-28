@@ -347,7 +347,6 @@ section h2{
         position: fixed;
         width: 100%;
         background-color: black;
-        display: block;
         display: flex;
         flex-direction: column;
     }
@@ -356,7 +355,7 @@ section h2{
         justify-content: space-between;
         align-items: center;
     }.header-responsive .icono-codigo img{
-        margin: 0 1em;
+        margin: .5em 1em;
         height: 80px;
         width: 80px;
     }.header-responsive .icono-codigo .btn-menu{
@@ -373,7 +372,6 @@ section h2{
         position: absolute;
         background-color: black;
         margin-top: 5em;
-        transition: 1s;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -396,7 +394,7 @@ section h2{
     .contenedor-header .perfil{
         font-size: 1.2em;
         margin: 0 1rem;
-        padding-top: 10rem;
+        padding-top: 13rem;
     }
     
     section{
