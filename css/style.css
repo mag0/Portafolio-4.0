@@ -155,6 +155,20 @@ section h2{
     margin-bottom: 3em;
 }
 
+section h3{
+    font-size: 2em;
+    margin-bottom: 2em;
+    color: var(--color-principal);
+}
+
+section h4{
+    font-size: 1.6em;
+}
+
+.segundo-titulo{
+    margin-top: 4em;
+}
+
 .proyectos{
     display: grid;
     grid-template-columns: 20% 20%;
@@ -183,6 +197,11 @@ section h2{
 }
 
 .proyectos .proyecto h3{
+    margin: .8em 0;
+    color: var(--color-principal);
+}
+
+.proyectos .proyecto h4{
     margin: .8em 0;
     color: var(--color-principal);
 }
@@ -255,6 +274,13 @@ section h2{
     .header nav ul a{
         padding: .2em;
         font-size: 1.3em;
+    }
+    section h3{
+        font-size: 1.5em;
+    }
+
+    section h4{
+        font-size: 1.2em;
     }
 
 }
